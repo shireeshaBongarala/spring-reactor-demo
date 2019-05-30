@@ -4,3 +4,8 @@ pluginManagement {
 	}
 }
 rootProject.name = 'demo'
+
+[
+		':webflux-app',
+		':author',
+].each { include it }
